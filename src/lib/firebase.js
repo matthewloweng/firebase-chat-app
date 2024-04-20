@@ -9,8 +9,9 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 // apikey = import.meta.env.VITE_API_KEY
+console.log('API Key:', import.meta.env.VITE_API_KEY);
 const firebaseConfig = {
-  apiKey: "AIzaSyBCIYcRIQSNYcZ4iW6Ot_jVQC7Rvom3MaI",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "mloweng-react-chat-app.firebaseapp.com",
   projectId: "mloweng-react-chat-app",
   storageBucket: "mloweng-react-chat-app.appspot.com",
