@@ -8,8 +8,6 @@ import { getStorage } from "firebase/storage";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// apikey = import.meta.env.VITE_API_KEY
-console.log('API Key:', import.meta.env.VITE_API_KEY);
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "mloweng-react-chat-app.firebaseapp.com",
